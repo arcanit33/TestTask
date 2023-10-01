@@ -75,7 +75,7 @@ function initApp(Data, page) {
                 </div>
             </div>
             <div>
-                <button onclick=addToCard(${key*page}) class="w-full bg-black text-white font-bold py-3 rounded-md">
+                <button onclick=addToCard(${key}) class="w-full bg-black text-white font-bold py-3 rounded-md">
                     ADD TO CART
                 </button>
             </div>
