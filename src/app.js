@@ -64,14 +64,14 @@ function initApp(Data, page) {
             </button>
                 <p class="absolute m-2 text-xs text-white bg-black p-1.5 rounded-lg">USED</p>
             </div>
-            <div class="m-2 flex justify-between">
+            <div class="m-2 flex justify-between ">
                 <div class="text-left">
-                    <p class="font-bold text-base">${value.handle}</p>
-                    <p class="font-bold text-base">${value.variants[0].price} KR.</p>
+                    <p class="font-bold text-sm max-h-7 ">${value.handle}</p>
+                    <p class="font-bold text-sm pt-6">${value.variants[0].price} KR.</p>
                 </div>
                 <div class="text-right">
-                    <p class="font-semibold text-base">Condition</p>
-                    <p class="font-normal text-sm">Slightly used</p>
+                    <p class="font-semibold text-sm ">Condition</p>
+                    <p class="font-normal text-xs pt-6">Slightly used</p>
                 </div>
             </div>
             <div>
